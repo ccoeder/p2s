@@ -9,6 +9,6 @@ Install the gem:
 
 And run with:
 
-`ruby myapp.rb`
+`ruby bfile.rb`
 
 View at: http://localhost:4567
