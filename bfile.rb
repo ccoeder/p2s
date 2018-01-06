@@ -29,5 +29,5 @@ __END__
 %h1 Upload
 
 %form{:action=> '/upload/en', :method=> 'post', :enctype => 'multipart/form-data'}
-  %input{:type => 'file', :name => 'file'}
+  %input{:type => 'file', :name => 'file', :accept => '.pdf'}
   %input{:type => 'submit', :value => 'Upload'}
